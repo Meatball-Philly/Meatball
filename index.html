@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect With Me</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #1a1a1a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.85);
+            padding: 30px 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+        }
+        .profile-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            letter-spacing: -0.5px;
+        }
+        .profile-subtitle {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+        }
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .link-button {
+            display: block;
+            padding: 16px;
+            background-color: #ffffff;
+            color: #1a1a1a;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.25s ease;
+            border: 1px solid rgba(0,0,0,0.08);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        }
+        .link-button:hover {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        /* Highlight your main call-to-action */
+        .cta-button {
+            background-color: #4A90E2;
+            color: white;
+            border: none;
+        }
+        .cta-button:hover {
+            background-color: #357ABD;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="profile-title">Welcome!</h1>
+        <p class="profile-subtitle">Find our social media, forms, and contact details below.</p>
+
+        <div class="links-container">
+            <!-- Submittable Form (Highlighted Call to Action) -->
+            <a href="https://submittable.com" target="_blank" class="link-button cta-button">Submit Cat Here</a>
+            
+            <!-- Instagram Link -->
+            <a href="https://instagram.com/meatball.philly" target="_blank" class="link-button">Follow</a>
+            
+            <!-- Contact Info / Email -->
+            <a href="mailto:meatball.philly@proton.me" class="link-button">Email Meatball Directly</a>
+            
+            <!-- Additional Contact (Optional text or phone link) -->
+            <a href="tel:+14244444356" class="link-button">Call / Text</a>
+        </div>
+    </div>
+
+</body>
+</html>
