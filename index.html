@@ -7,8 +7,9 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            color: #1a1a1a;
+            /* Artsy, warm terra-cotta/rose clay gradient background */
+            background: linear-gradient(135deg, #e57373 0%, #b71c1c 100%);
+            color: #2c1a1a;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -17,25 +18,29 @@
             padding: 20px;
         }
         .container {
-            max-width: 450px;
+            max-width: 420px;
             width: 100%;
             text-align: center;
-            background: rgba(255, 255, 255, 0.85);
-            padding: 30px 20px;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            backdrop-filter: blur(10px);
+            /* Gentle cream/soft rose tinted card container */
+            background: rgba(253, 245, 245, 0.92);
+            padding: 35px 25px;
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(139, 0, 0, 0.25);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
         }
         .profile-title {
-            font-size: 1.6rem;
+            font-size: 1.75rem;
             font-weight: 700;
-            margin-bottom: 5px;
+            color: #5d1a1a; /* Deep brick red for typography */
+            margin-bottom: 8px;
             letter-spacing: -0.5px;
         }
         .profile-subtitle {
-            color: #666;
+            color: #7d4f4f; /* Muted crimson-gray text */
             font-size: 0.95rem;
             margin-bottom: 30px;
+            line-height: 1.4;
         }
         .links-container {
             display: flex;
@@ -45,35 +50,39 @@
         .link-button {
             display: block;
             padding: 16px;
-            background-color: #ffffff;
-            color: #1a1a1a;
+            /* Soft, off-white/pale rose button */
+            background-color: #fffbfb;
+            color: #4a1515;
             text-decoration: none;
-            border-radius: 12px;
+            border-radius: 14px;
             font-weight: 600;
             font-size: 1rem;
-            transition: all 0.25s ease;
-            border: 1px solid rgba(0,0,0,0.08);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(183, 28, 28, 0.1);
+            box-shadow: 0 4px 6px rgba(183, 28, 28, 0.04);
         }
         .link-button:hover {
-            background-color: #1a1a1a;
+            /* Artsy velvet red shift on hover */
+            background-color: #880e4f;
             color: #ffffff;
             transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 8px 16px rgba(136, 14, 79, 0.25);
         }
-        /* Highlight your main call-to-action */
+        /* Highlighted Call to Action (Submittable Form) */
         .cta-button {
-            background-color: #4A90E2;
-            color: white;
+            background-color: #d32f2f; /* Vibrant, creative crimson */
+            color: #ffffff;
             border: none;
+            box-shadow: 0 4px 12px rgba(211, 47, 47, 0.2);
         }
         .cta-button:hover {
-            background-color: #357ABD;
+            background-color: #b71c1c;
+            color: #ffffff;
+            box-shadow: 0 8px 20px rgba(183, 28, 28, 0.4);
         }
     </style>
 </head>
 <body>
-
     <div class="container">
         <h1 class="profile-title">Welcome!</h1>
         <p class="profile-subtitle">Find our social media, forms, and contact details below.</p>
